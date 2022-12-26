@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>56.0</apiVersion>
+    <isExposed>false</isExposed>
+    <masterLabel>LWC Expandable Section</masterLabel>
+    <description>Custom SLDS Style Expandable Section https://www.lightningdesignsystem.com/components/expandable-section/ </description>
+</LightningComponentBundle>

@@ -1,15 +1,59 @@
 <template>
-    <section class="slds-grid slds-wrap slds-gutters grid-gap">
+    <section class="slds-grid slds-wrap slds-gutters grid-gap" style="min-width: 320px;">
         <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2">
+
             <lightning-card title="Types">
                 <div class="slds-var-p-horizontal_medium slds-var-p-vertical_small">
-                    <h3 class="slds-text-title_bold">Base</h3>
+                    <!-- <h3 class="slds-text-title_bold">Base</h3> -->
 
-                    test
+                    <c-lwc-expandable-section section-title="Base" variant="default">
+                        Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus,
+                        tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
+                        risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis risus eget urna
+                        mollis ornare vel eu leo. Nulla vitae elit libero, a pharetra augue.
+                    </c-lwc-expandable-section>
+
+                    <c-lwc-expandable-section section-title="Base with icon" variant="default"
+                        icon-name="utility:emoji">
+                        Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus,
+                        tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
+                        risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis risus eget urna
+                        mollis ornare vel eu leo. Nulla vitae elit libero, a pharetra augue.
+                    </c-lwc-expandable-section>
+
+                    <c-lwc-expandable-section section-title="Non-collapsible" variant="non-collapsible">
+                        Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus,
+                        tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
+                        risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis risus eget urna
+                        mollis ornare vel eu leo. Nulla vitae elit libero, a pharetra augue.
+                    </c-lwc-expandable-section>
+
+                    <c-lwc-expandable-section section-title="Non-collapsible with icon" variant="non-collapsible"
+                        icon-name="utility:emoji">
+                        Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Fusce dapibus,
+                        tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet
+                        risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis risus eget urna
+                        mollis ornare vel eu leo. Nulla vitae elit libero, a pharetra augue.
+                    </c-lwc-expandable-section>
                 </div>
             </lightning-card>
         </div>
 
-        
+        <div class="slds-col slds-size_1-of-1 slds-medium-size_1-of-2">
+            <lightning-card title="Advanced options">
+                <div class="slds-var-p-horizontal_medium slds-var-p-vertical_small">
+
+                    <c-lwc-expandable-section section-title="Expanded" variant="default" expanded>
+                        This is expanded by default
+                    </c-lwc-expandable-section>
+
+                    <c-lwc-expandable-section section-title="With main class" variant="default" main-class="slds-box">
+                        <code>
+                            &lt;c-lwc-expandable-section section-title=&quot;With main class&quot; variant=&quot;default&quot; main-class=&quot;slds-box&quot;&gt;&lt;/c-lwc-expandable-section&gt;
+                        </code>
+                    </c-lwc-expandable-section>
+                </div>
+            </lightning-card>
+        </div>
     </section>
 </template>
