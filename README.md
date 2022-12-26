@@ -21,8 +21,10 @@ Everything was developed in a single LWC, so you just need a new single componen
 - Copy the following files to your project:
     - force-app/main/default/lwc/lwcExpandableSection/**
 - Call the component and pass the options
-```
-<c-
+```html
+<c-lwc-expandable-section section-title="Expanded" variant="default" expanded>
+This is expanded by default
+</c-lwc-expandable-section>
 ```
 
 ### Testing and learn how to use it
