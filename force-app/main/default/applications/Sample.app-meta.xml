@@ -10,7 +10,7 @@
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
-    <label>LWC Expandable Section</label>
+    <label>Sample</label>
     <navType>Standard</navType>
     <tabs>Samples</tabs>
     <uiType>Lightning</uiType>
