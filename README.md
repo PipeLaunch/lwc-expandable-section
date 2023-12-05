@@ -51,6 +51,17 @@ https://www.lightningdesignsystem.com/components/expandable-section/
 ### Accordion vs Expandable Section
 Section Titles are interactive titles that open and close sections, typically on a form. An accordion allows a user to toggle the display of a section of content. Expandable sections are used to break up content into logical groups.
 
+## Properties
+| Property                   | Required | Description                                                        | Sample                               |
+| -------------------------- | -------- | ------------------------------------------------------------------ | ------------------------------------- |
+| `mainClass`                | No       | CSS classes for the main element.                                  | `slds-var-m-bottom_large`                                  |
+| `sectionTitle`             | No       | Title or label of the section.                                     | `Filters`                                  |
+| `iconName`                 | No       | Name of the icon to be displayed.                                  | `utility:info` |
+| `sectionTitleBackgroundColor` | No    | Background color of the section. Default is the normal background color (grey). | `#F3F3F3`                  |
+| `variant`                  | No       | Variant of the component. Default is `base`. Options: `base`, `non-collapsible`, `titles`. | `base`                                |
+| `expanded`                 | No       | State of the section (expanded or not). Default is `false`.       | `false`                               |
+
+
 ## References
 
 - https://www.lightningdesignsystem.com/components/expandable-section/
